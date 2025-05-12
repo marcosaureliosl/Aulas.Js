@@ -1,6 +1,6 @@
 # 📚 Aula de JavaScript — Fundamentos para Iniciantes
 
-🔗 **Slides da aula:**  
+🔗 **Slides da aula_1:**  
 [▶️ Acesse os slides no Google Apresentações](https://docs.google.com/presentation/d/1f3bI6j3nXl8J5Jp46aVDIO1L9qRMjk_b/edit#slide=id.p1)
 
 ---
