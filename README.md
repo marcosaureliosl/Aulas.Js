@@ -1,113 +1,94 @@
-# 📚 Aula de JavaScript — Fundamentos para Iniciantes
+# 📘 Aula de Introdução ao JavaScript
 
-🔗 **Slides da aula_1:**  
-[▶️ Acesse os slides no Google Apresentações](https://docs.google.com/presentation/d/1f3bI6j3nXl8J5Jp46aVDIO1L9qRMjk_b/edit#slide=id.p1)
-
----
-
-## 🧠 Conteúdo Abordado
-
-### ✅ Tipos Primitivos
-
-- **`String`**
-  - Representa textos.
-  - Pode usar `'aspas simples'`, `"aspas duplas"` ou ``crase (template string)``.
-
-- **`Number`**
-  - Representa números inteiros ou decimais.
-  - Ex: `let idade = 20; let altura = 1.75;`
-
-- **`Boolean`**
-  - Representa valores lógicos: `true` ou `false`.
-
-- **`undefined`**
-  - A variável foi declarada, mas **não inicializada**.
-
-- **`null`**
-  - Representa **ausência de valor intencional**.
+🔗 **Material de apoio (Slides):**  
+[▶️ Acesse os slides no Google Apresentações da aula-1](https://docs.google.com/presentation/d/1f3bI6j3nXl8J5Jp46aVDIO1L9qRMjk_b/edit#slide=id.p1)
 
 ---
 
-### ✅ Tipos Não Primitivos
+## 🎯 Objetivo da Aula
 
-- **`Object`**
-  - Armazena pares `chave: valor`.
-  - Ex: `let pessoa = { nome: "Ana", idade: 30 };`
+Apresentar os principais fundamentos da linguagem **JavaScript**, com foco em:
 
-- **`Array`**
-  - Lista ordenada de valores.
-  - Ex: `let cores = ["vermelho", "azul"];`
-
-- **`Function`**
-  - Bloco de código reutilizável que executa uma tarefa.
+- Tipos de dados
+- Entrada e saída com o usuário
+- Estruturas de controle
+- Declaração de variáveis
+- Convenções de escrita
 
 ---
 
-### 🧾 Entrada e Saída de Dados
+## 🧠 Tópicos Abordados
 
-- **`prompt()`**
-  - Exibe uma caixa para o usuário digitar algo (retorna uma `string`).
-- **`alert()`**
-  - Mostra uma mensagem na tela.
-- **`confirm()`**
-  - Exibe uma pergunta com "OK" e "Cancelar", e retorna `true` ou `false`.
+### 🔹 Tipos Primitivos
 
----
-
-### 🔁 Estruturas de Controle
-
-- **`if`, `else`, `else if`**
-  - Condições para tomar decisões no código.
-
-- **Operador ternário**
-  - Sintaxe curta: `condição ? valor1 : valor2;`
-
-- **`for`**
-  - Laço de repetição com contador.
+- **String**: representa textos (`'texto'`, `"texto"`, `` `texto` ``).
+- **Number**: representa números inteiros e decimais.
+- **Boolean**: valores lógicos: `true` ou `false`.
+- **Undefined**: variável declarada mas sem valor.
+- **Null**: ausência de valor atribuída de forma intencional.
 
 ---
 
-### 🧱 Variáveis e Convenções
+### 🔹 Tipos Não Primitivos
 
-- **Declaração com `let`, `const` e `var`**
-  - `const` não pode ser reatribuída.
-  - Escopo de bloco com `let` e `const`.
-
-- **Regras para nomes de variáveis**
-  - Devem começar com letra, `_` ou `$`.
-  - Após o primeiro caractere, pode conter letras, números, `_` ou `$`.
-
-- **Estilos de nomeação**
-  - `camelCase` → variáveis, funções
-  - `PascalCase` → classes, componentes
-  - `snake_case` → usado em alguns ambientes como Python ou bancos
+- **Object**: estrutura com pares `chave: valor`.
+- **Array**: lista de valores ordenados por índice.
+- **Function**: bloco de código reutilizável.
 
 ---
 
-### 💬 Exemplos Práticos Incluídos
+### 🔹 Entrada e Saída de Dados
 
-- Interação com o usuário (`prompt`, `alert`, `confirm`)
-- Troca de valores entre variáveis
-- Acesso a propriedades de objetos
-- Estruturas de decisão e laços
-
----
-
-## 🧑‍🏫 Objetivo da Aula
-
-- Compreender os **tipos de dados fundamentais**
-- Praticar **entrada e saída** de dados
-- Aplicar **estruturas de controle e variáveis**
-- Criar **exercícios lógicos simples** com `JavaScript`
+- **prompt()**: solicita um valor do usuário (retorna `string`).
+- **alert()**: exibe mensagem na tela.
+- **confirm()**: exibe pergunta com botões "OK" e "Cancelar" (retorna `true` ou `false`).
 
 ---
 
-### 📩 Sugestão de prática extra
+### 🔹 Controle de Fluxo
 
-- Reescreva os exemplos com `const`, `let`, e teste diferentes entradas via `prompt()`.
-- Crie uma calculadora simples usando `prompt()` e `alert()`.
+- **if / else / else if**: tomada de decisão.
+- **Operador ternário**: forma resumida de `if`.
+- **for**: laço de repetição com contador.
 
 ---
 
-🧑‍💻 **Feito para ajudar no aprendizado de quem está começando com JavaScript!**
+### 🔹 Variáveis
+
+- **let** e **const**: declaração moderna com escopo de bloco.
+  - `const` não permite reatribuição.
+  - Ambas respeitam o *Temporal Dead Zone* (TDZ).
+
+---
+
+### 🔹 Convenções de Nomes
+
+- Nomes de variáveis devem começar com:
+  - Letra (a-z, A-Z)
+  - `$` (cifrão)
+  - `_` (sublinhado)
+- Após o primeiro caractere, podem incluir números.
+
+---
+
+### 🔹 Estilos de Escrita
+
+- **camelCase**: `nomeCompleto` (padrão em JS)
+- **PascalCase**: `NomeCompleto` (classes e construtores)
+- **snake_case**: `nome_completo` (usado em outras linguagens e bancos)
+
+---
+
+## 🧪 Exercícios Realizados
+
+- Entrada de nome e profissão com `prompt()` e `alert()`.
+- Inversão de valores entre variáveis `a` e `b`.
+- Acesso a propriedades de objetos com `.` e `[]`.
+- Uso de `confirm()` para decisões com `if`.
+
+---
+
+## ✅ Conclusão
+
+Essa aula cobre os fundamentos essenciais do JavaScript para iniciantes, preparando a base para lógica de programação, interações básicas com o usuário e compreensão da estrutura da linguagem.
 
