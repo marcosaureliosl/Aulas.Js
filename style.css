@@ -1,0 +1,15 @@
+.destaque {
+  background-color: #f0f8ff;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 20px;
+}
+
+.destaque h2 {
+  color: #333;
+}
+
+.destaque p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
