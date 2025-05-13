@@ -1,94 +1,79 @@
 # 📘 Aula de Introdução ao JavaScript
 
 🔗 **Material de apoio (Slides):**  
-[▶️ Acesse os slides no Google Apresentações da aula-1](https://docs.google.com/presentation/d/1f3bI6j3nXl8J5Jp46aVDIO1L9qRMjk_b/edit#slide=id.p1)
+[▶️ Acesse os slides no Google Apresentações da aula-2](https://docs.google.com/presentation/d/1dKMvTYi2iFcm9WtXODLVa8Z6OPFwutfW/edit?usp=drive_link&ouid=104006085514081363245&rtpof=true&sd=true)
 
 ---
 
+
 ## 🎯 Objetivo da Aula
 
-Apresentar os principais fundamentos da linguagem **JavaScript**, com foco em:
+Ensinar os principais fundamentos de controle de fluxo em **JavaScript**, com foco em:
 
-- Tipos de dados
-- Entrada e saída com o usuário
-- Estruturas de controle
-- Declaração de variáveis
-- Convenções de escrita
+* Estruturas condicionais (`if`, `else`, `switch`)
+* Operador ternário
+* Laços de repetição (`for`, `while`, `do...while`)
+* Entrada e saída com o usuário
+* Exercícios práticos para fixação
 
 ---
 
 ## 🧠 Tópicos Abordados
 
-### 🔹 Tipos Primitivos
+### 🔹 Estruturas Condicionais
 
-- **String**: representa textos (`'texto'`, `"texto"`, `` `texto` ``).
-- **Number**: representa números inteiros e decimais.
-- **Boolean**: valores lógicos: `true` ou `false`.
-- **Undefined**: variável declarada mas sem valor.
-- **Null**: ausência de valor atribuída de forma intencional.
+* **if / else / else if**: tomada de decisão com base em uma condição.
+* **switch**: usado para comparar uma variável contra vários valores fixos.
+* **Operador ternário**: alternativa compacta ao `if...else`.
 
 ---
 
-### 🔹 Tipos Não Primitivos
+### 🔹 Estruturas de Repetição
 
-- **Object**: estrutura com pares `chave: valor`.
-- **Array**: lista de valores ordenados por índice.
-- **Function**: bloco de código reutilizável.
+* **for**: laço com início, condição e incremento definidos. Ideal para repetições conhecidas.
+* **while**: repete enquanto a condição for verdadeira. Usado quando **não se sabe** o número de repetições.
+* **do...while**: semelhante ao `while`, mas **executa pelo menos uma vez**, independentemente da condição inicial.
 
 ---
 
 ### 🔹 Entrada e Saída de Dados
 
-- **prompt()**: solicita um valor do usuário (retorna `string`).
-- **alert()**: exibe mensagem na tela.
-- **confirm()**: exibe pergunta com botões "OK" e "Cancelar" (retorna `true` ou `false`).
+* **prompt()**: solicita um valor do usuário (retorna `string`).
+* **alert()**: exibe mensagens na tela.
+* **console.log()**: exibe mensagens no console (útil para depuração e testes).
 
 ---
 
-### 🔹 Controle de Fluxo
+### 🔹 Operadores e Conceitos Importantes
 
-- **if / else / else if**: tomada de decisão.
-- **Operador ternário**: forma resumida de `if`.
-- **for**: laço de repetição com contador.
-
----
-
-### 🔹 Variáveis
-
-- **let** e **const**: declaração moderna com escopo de bloco.
-  - `const` não permite reatribuição.
-  - Ambas respeitam o *Temporal Dead Zone* (TDZ).
-
----
-
-### 🔹 Convenções de Nomes
-
-- Nomes de variáveis devem começar com:
-  - Letra (a-z, A-Z)
-  - `$` (cifrão)
-  - `_` (sublinhado)
-- Após o primeiro caractere, podem incluir números.
-
----
-
-### 🔹 Estilos de Escrita
-
-- **camelCase**: `nomeCompleto` (padrão em JS)
-- **PascalCase**: `NomeCompleto` (classes e construtores)
-- **snake_case**: `nome_completo` (usado em outras linguagens e bancos)
+* **Comparação estrita (`===` / `!==`)**: compara valor e tipo.
+* **Operador módulo `%`**: usado para saber se um número é par ou ímpar.
+* **Controle de fluxo**: decide **quando repetir, quando parar e o que executar**.
 
 ---
 
 ## 🧪 Exercícios Realizados
 
-- Entrada de nome e profissão com `prompt()` e `alert()`.
-- Inversão de valores entre variáveis `a` e `b`.
-- Acesso a propriedades de objetos com `.` e `[]`.
-- Uso de `confirm()` para decisões com `if`.
+* ✅ Verificação de maioridade com `if` e ternário.
+* ✅ Menu bancário com `switch` e múltiplas opções.
+* ✅ Tabuada com `for` e exibição com `alert()` e `console.log()`.
+* ✅ Contagem progressiva, regressiva e com números ímpares.
+* ✅ Laço `while` com verificação de senha e entrada repetida.
+* ✅ `do...while` com validação de número maior que 10.
+* ✅ Repetição de palavras digitadas pelo usuário.
+* ✅ Verificação de número positivo, negativo ou zero com encerramento do programa.
+* ✅ Repetição até o usuário digitar a palavra `"sair"`.
 
 ---
 
 ## ✅ Conclusão
 
-Essa aula cobre os fundamentos essenciais do JavaScript para iniciantes, preparando a base para lógica de programação, interações básicas com o usuário e compreensão da estrutura da linguagem.
+Essa aula proporcionou uma base sólida sobre **como controlar o fluxo de execução** em JavaScript, tanto com decisões quanto com repetições. Os exemplos práticos reforçaram o uso das estruturas em situações reais, preparando o aluno para resolver problemas lógicos e interativos com segurança.
+
+---
+
+Se quiser, posso te ajudar a montar os próximos resumos ou separar isso por blocos de aulas contínuas!
+
+
+
 
