@@ -72,7 +72,7 @@ Essa aula proporcionou uma base sólida sobre **como controlar o fluxo de execu�
 
 ---
 
-Se quiser, posso te ajudar a montar os próximos resumos ou separar isso por blocos de aulas contínuas!
+
 
 
 
