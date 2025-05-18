@@ -45,32 +45,32 @@
 // }
 
 // Solicita o nome do usuário
-// let nomeDoUsuario = prompt("Qual é o seu nome?");
+//  let nomeDoUsuario = prompt("Qual é o seu nome?");
 
-// // Solicita a idade do usuário e converte para número
-// let idade = Number(prompt("Qual é a sua idade?"));
+// // // Solicita a idade do usuário e converte para número
+//  let idade = Number(prompt("Qual é a sua idade?"));
 
-// // Verifica se é maior de idade
-// if (idade >= 18) {
-//   alert(`Olá, ${nomeDoUsuario}! Você pode dirigir.`);
+// // // Verifica se é maior de idade
+//  if (idade >= 18) {
+//    alert(`Olá, ${nomeDoUsuario}! Você pode dirigir.`);
 // } else {
 //   alert(`Olá, ${nomeDoUsuario}! Você não pode dirigir.`);
 // }
 
-// Solicita a temperatura atual ao usuário
-// let temperatura = Number(prompt("Digite a temperatura local atual:"));
+// // Solicita a temperatura atual ao usuário
+//  let temperatura = Number(prompt("Digite a temperatura local atual:"));
 
-// // Verifica a classificação da temperatura
-// if (temperatura > 35) {
+// // // Verifica a classificação da temperatura
+//  if (temperatura > 35) {
 //   alert("Calor extremo.");
 // } else if (temperatura >= 25 && temperatura <= 35) {
 //   alert("Clima quente.");
-// } else if (temperatura >= 15 && temperatura <= 24) {
+//  } else if (temperatura >= 15 && temperatura <= 24) {
 //   alert("Clima agradável.");
 // } else if (temperatura >= 5 && temperatura <= 14) {
 //   alert("Clima frio.");
-// } else {
-//   alert("Frio intenso.");
+//  } else {
+//    alert("Frio intenso.");
 // }
 
 //Ternário com operadores lógicos
@@ -173,6 +173,10 @@
 // Simulando a entrada do usuário (pode ser trocado por prompt no navegador)
 // let opcao = 3;
 
+// Crie om programa que simula um menu bancario 
+
+// const opcao = 2; // ou qualquer valor entre 1 e 4, ou até uma entrada do usuário
+
 // switch (opcao) {
 //   case 1:
 //     console.log("Você escolheu: Saque");
@@ -215,27 +219,31 @@
 
 // for (let index = 0; index <=5; index++) {
 //   console.log(`Iteração: ${index}`);
-  
 // }
+
+
 // for (let index = 10; index >= 1; index--) {
 //   console.log(`Iteração: ${index}`);
 // }
 
-// Exercicios com for
-
-// for (let i = 1; i <= 10; i++) {
-//   console.log("Passo " + i);
-// }
-
-// for (let i = 2; i <= 20; i += 2) {
-//   console.log(`Passo ${i}`);
-// }
+// Exercicios com for 10 PASSOS
 
 // Explicação:
 // O for vai de 1 até 10.
 
-// O if verifica se o número é ímpar com i % 2 !== 0.
+// for (let i = 1; i <= 10; i++) {
+//   console.log("Passo " + i);
+// }
+//------------------------------
 
+// Exercicios com for 20 PASSOS
+// for (let i = 2; i <= 20; i += 2) {
+//   console.log(`Passo ${i}`);
+// }
+
+
+//implmiir numeors impares com for
+// O if verifica se o número é ímpar com i % 2 !== 0.
 // Se for verdadeiro, ele é impresso com console.log.
 
 // for (let i = 1; i <= 10; i++) {
@@ -263,8 +271,8 @@
 //   console.log(`${numero} x ${i} = ${numero * i}`);
 // }
 
-
-// Exemplo com alert():
+//------------------------------------------------------------------------------------------
+// // Exemplo com alert():
 
 // let numero = Number(prompt("Digite um número para ver a tabuada:"));
 
@@ -274,6 +282,10 @@
 //   tabuada += `${numero} x ${i} = ${numero * i}\n`; // adiciona cada linha com quebra
 // }
 
+// alert(tabuada);
+
+//-------------------------------------------------------------------------------------------
+
 // alert(tabuada); // mostra tudo de uma vez
 
 // tabuada += → acumula cada linha na variável.
@@ -282,12 +294,25 @@
 
 // alert(tabuada) → exibe a tabuada completa em uma janela só.
 
-// let contador = 1;
+//----------------------------------------------------------------------------------------------
+
+// let contador = 0;
 
 // while (contador <= 5) {
 //   console.log("Passo " + contador);
 //   contador++; // incrementa o valor
 // }
+
+//--------------------------------------------------------------------------------------------
+
+// let contador = 0;
+
+// while (contador <= 5) {
+//   console.log(`Passo  + ${contador}`);
+//   contador++; // incrementa o valor
+// }
+
+//--------------------------------------------------------------------------------------------
 
 // let senha = Number(prompt("Digite sua senha:"));
 
@@ -297,9 +322,13 @@
 
 // alert("Acesso concedido.");
 
+//--------------------------------------------------------------------------------------------
+
 // for (let i = 10; i >= 1; i--) {
 //   console.log(i);
-// // }
+// }
+
+//--------------------------------------------------------------------------------------------
 
 // exercicio 1
 // O que faz
@@ -307,12 +336,16 @@
 // i >= 1	Continua enquanto i for maior ou igual a 1
 // i--	Decrementa i (diminui 1 a cada passo)
 
+//--------------------------------------------------------------------------------------------
+
 // exercicio 2
 // let palavra = prompt("Digite uma palavra:");
 
 // for (let i = 1; i <= 5; i++) {
 //   console.log(`(${i}) ${palavra}`);
 // }
+
+//--------------------------------------------------------------------------------------------
 
 // complemento do exercicio 2
 
@@ -322,8 +355,9 @@
 // for (let i = 1; i <= 5; i++) {
 //   resultado += `${i} - ${palavra}\n`;
 // }
-
 // alert(resultado);
+
+//--------------------------------------------------------------------------------------------
 
 // 🟢 Linha 1:
 // let palavra = prompt("Digite uma palavra:");
@@ -365,6 +399,8 @@
 
 // Isso inclui 5 linhas com a palavra digitada, numeradas de 1 a 5.
 
+//--------------------------------------------------------------------------------------------
+
 // exercicio 3 
 
 // let numero = Number(prompt("Digite um número acima de 4:"));
@@ -380,6 +416,8 @@
 
 // console.log("Chegou ao zero!");
 
+//--------------------------------------------------------------------------------------------
+
 // Linha	O que faz
 // prompt(...)	Pede ao usuário um número.
 // Number(...)	Converte o texto digitado para número.
@@ -389,24 +427,28 @@
 // numero--	Diminui o valor da variável em 1 a cada volta.
 // console.log("Chegou ao zero!")	Mostra a mensagem final quando termina.
 
-// let numero;
+//--------------------------------------------------------------------------------------------
+//Exercicio do while
 
+// let numero;
 // do {
 //   numero = prompt("Digite um número maior que 10:");
 // } while (numero <= 10);
 
 // alert("Número maior que 10.");
 
-//Exercicio do while
+//--------------------------------------------------------------------------------------------
 
 
 // let palavra = prompt("Digite uma palavra (ou 'sair' para encerrar):");
 
 // while (palavra !== "sair") {
-  //   palavra = prompt("Digite outra palavra (ou 'sair' para encerrar):");
-  // }
+//     palavra = prompt("Digite outra palavra (ou 'sair' para encerrar):");
+//   }
   
-  // alert("Programa encerrado.");
+//   alert("Programa encerrado.");
+
+  //--------------------------------------------------------------------------------------------
 
   // no console
   // let palavra = prompt("Digite uma palavra (ou 'sair' para encerrar):");
@@ -417,6 +459,8 @@
   // }
   
   // console.log("Programa encerrado.");
+
+   //--------------------------------------------------------------------------------------------
 
 
 //   let numero = Number(prompt("Digite um número (0 para sair):"));
@@ -432,3 +476,11 @@
 // }
 
 // console.log("Zero não é positivo, nem negativo.");
+
+
+//Dado um array de números fixo, use um for para somar todos os valores e exibir o resultado final.
+//Crie um array com 5 palavras. Use um for para mostrar cada palavra junto com sua posição no array.
+//Crie uma função calcularMedia que recebe um array de números e retorna a média dos valores.
+//Crie uma função contarVogais(palavra) que recebe uma palavra e conta quantas vogais ela tem.
+
+

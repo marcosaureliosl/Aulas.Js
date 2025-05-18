@@ -76,18 +76,18 @@
 // prompt
 
 // // Passo 1: pedir o nome
-// let nome = prompt("Qual é o seu nome?");
+ let nome = prompt("Qual é o seu nome?");
 
 // // Passo 2: pedir a idade
-// let idade = prompt("Quantos anos você tem?");
+let idade = prompt("Quantos anos você tem?");
 
 // // Passo 3: mostrar a mensagem
-// alert(`Olá, ${nome}! Você tem ${idade} anos.`);
+alert(`Olá, ${nome}! Você tem ${idade} anos.`);
 
-// confirm()
+ confirm()
 
 // let resposta = confirm("Você tem certeza que deseja sair?");
-// console.log(resposta);
+ console.log(resposta);
 
 // Exercício1
 
@@ -110,8 +110,8 @@
 
 // Exercício2
 // Solicita o nome e a profissão do usuário
-// const nomeDoUsuario = prompt("Qual é o seu nome?");
-//   const profissaoDoUsuario = prompt("Qual é a sua profissão?");
+const nomeDoUsuario = prompt("Qual é o seu nome?");
+  const profissaoDoUsuario = prompt("Qual é a sua profissão?");
 
 // // Exibe a mensagem com interpolação
-// alert(`Olá, ${nomeDoUsuario}! Que interessante saber que você trabalha como ${profissaoDoUsuario}.`);
+ alert(`Olá, ${nomeDoUsuario}! Que interessante saber que você trabalha como ${profissaoDoUsuario}.`);
